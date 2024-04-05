@@ -4,7 +4,7 @@ from kivy.uix.label import Label
 from kivy.core.window import Window
 from kivy.clock import Clock
 from kivy.properties import NumericProperty
-from widgets import Junk
+from widgets.junk import Junk
 
 class Junkster(App):
     def build(self):
