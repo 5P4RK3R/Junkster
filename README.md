@@ -1,2 +1,2 @@
-# Space-Junk-
-Game made with Kivy
+# Space-Junk Cleaning Crew
+Game made with Bevy
