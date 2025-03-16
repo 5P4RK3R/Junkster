@@ -1,24 +1,24 @@
 use bevy::prelude::*;
 use bevy::math::Vec2;
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Junk;
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Junkster;
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Score;
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Boundary;
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Position(pub Vec2);
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Velocity(pub Vec2);
 
-#[derive(Component)]
+#[derive(Component,Debug)]
 pub struct Shape (pub Vec2);
 
